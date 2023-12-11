@@ -1,0 +1,17 @@
+for model.py:
+from scipy.signal import welch
+from scipy.io import wavfile
+import matplotlib.pyplot as plt
+import numpy as np
+from pydub import AudioSegment
+
+for view.py:
+import tkinter as tk
+from tkinter import filedialog
+from model import AudioModel
+from tkinter import messagebox
+
+for controller:
+from tkinter import filedialog
+from model import AudioModel
+from view import GUI

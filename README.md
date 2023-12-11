@@ -1,0 +1,1 @@
+This program will access a sound file whether it be .mp3, .wav, or m4a. If the file is not a .wav, it will convert it. It will also remove metadata like tags and make it so that the sound file is one channel. It will also calculate the low, mid, high frequencies and plot said frequencies. 
